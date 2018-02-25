@@ -19,5 +19,9 @@
   "homepage": "https://github.com/bmarcotte/rest-demo-node-backend#readme",
   "devDependencies": {
     "eslint": "^4.18.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
   }
 }
