@@ -1,0 +1,19 @@
+{
+  "name": "rest-demo-node-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A simple demonstration of a RESTful web service in Node.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmarcotte/rest-demo-node-backend.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bmarcotte/rest-demo-node-backend/issues"
+  },
+  "homepage": "https://github.com/bmarcotte/rest-demo-node-backend#readme"
+}
