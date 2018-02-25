@@ -5,6 +5,7 @@
   "description": "A simple demonstration of a RESTful web service in Node.js",
   "main": "server.js",
   "scripts": {
+    "lint": "eslint --ext .js .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/bmarcotte/rest-demo-node-backend/issues"
   },
-  "homepage": "https://github.com/bmarcotte/rest-demo-node-backend#readme"
+  "homepage": "https://github.com/bmarcotte/rest-demo-node-backend#readme",
+  "devDependencies": {
+    "eslint": "^4.18.1"
+  }
 }
