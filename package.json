@@ -20,7 +20,10 @@
   },
   "homepage": "https://github.com/bmarcotte/rest-demo-node-backend#readme",
   "devDependencies": {
-    "eslint": "^4.18.1"
+    "ajv": "^6.2.0",
+    "chai": "^4.1.2",
+    "eslint": "^4.18.1",
+    "mocha": "^5.0.1"
   },
   "dependencies": {
     "body-parser": "^1.18.2",
