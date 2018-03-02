@@ -17,5 +17,6 @@ app.get( '/', function ( req, res ) {
 app.use( '/rest', bookmarks );
 
 const port = process.env.PORT || 8080;
-app.listen( port );
-console.warn( 'Listening on port: ' + port );
+const host = process.env.HOST || '0.0.0.0';
+app.listen( port, host );
+console.warn( 'Listening on: ' + host + ':' + port );
