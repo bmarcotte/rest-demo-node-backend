@@ -1,4 +1,4 @@
-const model = require( '../model/bookmarks.js' );
+const model = require( '../model/bookmarks' );
 
 exports.index = function( req, res ) {
   model.find(

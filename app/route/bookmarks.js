@@ -1,6 +1,6 @@
 const express             = require( 'express' );
 const router              = express.Router();
-const bookmark_controller = require( '../controller/bookmarks.js' );
+const bookmark_controller = require( '../controller/bookmarks' );
 
 router.route( '/bookmarks' )
   .get( bookmark_controller.index );
