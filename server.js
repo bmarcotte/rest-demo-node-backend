@@ -16,7 +16,19 @@ app.get( '/', function ( req, res ) {
 
 app.use( '/rest', bookmarks );
 
-const port = process.env.PORT || 8080;
-const host = process.env.HOST || '0.0.0.0';
-app.listen( port, host );
+const port     = process.env.PORT || 8080;
+const host     = process.env.HOST || '0.0.0.0';
+const listener = app.listen( port, host );
 console.warn( 'Listening on: ' + host + ':' + port );
+
+// For testing:
+
+module.exports.stop = exports.stop = function () {
+  if ( listener ) {
+    console.warn( 'Closing listener:' );
+    listener.close();
+  }
+};
+
+module.exports.app = exports.app = app;
+module.exports = exports;
