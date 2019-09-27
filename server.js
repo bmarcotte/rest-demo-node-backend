@@ -2,8 +2,6 @@ const express     = require( 'express' );
 const body_parser = require( 'body-parser' );
 const bookmarks   = require( './app/route/bookmarks.js' );
 
-/* global process */
-
 const app = express();
 // Support parsing of application/x-www-form-urlencoded post data
 app.use( body_parser.urlencoded( { extended: true } ) );

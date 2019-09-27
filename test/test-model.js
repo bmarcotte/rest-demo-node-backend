@@ -2,7 +2,7 @@ const assert = require( 'assert' );
 const model  = require( '../app/model/bookmarks' );
 const path   = require( 'path' );
 
-/* global __dirname describe it process */
+/* global describe it */
 
 const expected_dbfile = path.resolve( __dirname, './data/bookmarks.db' );
 process.env.DBFILE = '../../test/data/bookmarks.db';
